@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="PC Shop" />
+        <meta name="keywords" content="PC,shop,cpu,gpu" />
+        <meta name="author" content="Yurii Boholiubov" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+        <link rel="icon" href="resources/icon.png" type="image/x-icon" />
+
+        <link rel="stylesheet" href="resources/styles.css" />
+        <script src="script.js" defer></script>
+
+        <title>PC Shop</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="welcome">Welcome to PC Shop</h1>
+            <div class="container">
+                <label for="sizeSelector" id="label">Choose a font size:</label>
+                <select id="sizeSelector">
+                    <option value="-5">-5</option>
+                    <option value="-4">-4</option>
+                    <option value="-3">-3</option>
+                    <option value="-2">-2</option>
+                    <option value="-1">-1</option>
+                    <option value="0" selected>0 (default)</option>
+                    <option value="1">+1</option>
+                    <option value="2">+2</option>
+                    <option value="3">+3</option>
+                    <option value="4">+4</option>
+                    <option value="5">+5</option>
+                </select>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle" />
+                    <span class="slider"></span>
+                </label>
+                <a class="cartbutton"></a>
+                <a href="login/login.html" class="loginbutton">Login</a>
+            </div>
+        </header>
+        <main>
+            <div class="productContainer" id="productContainer"></div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footerSection">
+                    <h3>Contact Us</h3>
+                    <p>Email: support@gmail.com</p>
+                </div>
+            </div>
+            <div class="footerBottom">
+                <p>All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>

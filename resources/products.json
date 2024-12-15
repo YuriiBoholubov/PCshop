@@ -1,0 +1,64 @@
+[
+    {
+        "cpu": "Intel Core i5-12400",
+        "gpu": "NVIDIA GeForce RTX 3060",
+        "ram": "32GB DDR4",
+        "price": 1200
+    },
+    {
+        "cpu": "AMD Ryzen 5 5600X",
+        "gpu": "AMD Radeon RX 6700 XT",
+        "ram": "16GB DDR4",
+        "price": 1400
+    },
+     {
+        "cpu": "Intel Core i3-12100F",
+        "gpu": "NVIDIA GeForce RTX 3050",
+        "ram": "16GB DDR5",
+        "price": 1000
+    },
+     {
+        "cpu": "Intel Core i7-13700F",
+        "gpu": "NVIDIA GeForce RTX 2080",
+        "ram": "16GB DDR5",
+        "price": 1200
+    },
+    {
+        "cpu": "Intel Core i9-14900K",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "ram": "64GB DDR5",
+        "price": 5000
+    },
+    {
+        "cpu": "AMD Ryzen 3 3100",
+        "gpu": "NVIDIA GeForce GTX 1650",
+        "ram": "8GB DDR4",
+        "price": 700
+    },
+    {
+        "cpu": "Intel Core i3-10100",
+        "gpu": "Intel UHD Graphics 630",
+        "ram": "8GB DDR4",
+        "price": 450
+    },
+    {
+        "cpu": "AMD Ryzen 7 5800X",
+        "gpu": "NVIDIA GeForce RTX 3070",
+        "ram": "32GB DDR4",
+        "price": 1800
+    },
+     {
+        "cpu": "Intel Core i7-12700K",
+        "gpu": "RX 6700 XT",
+        "ram": "16GB DDR5",
+        "price": 1500
+    },
+     {
+        "cpu": "AMD Ryzen 9 5900X",
+        "gpu": "NVIDIA GeForce RTX 3080",
+        "ram": "32GB DDR4",
+        "price": 2500
+    }
+    
+    
+]

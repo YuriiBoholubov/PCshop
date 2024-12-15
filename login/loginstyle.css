@@ -1,0 +1,73 @@
+:root {
+  --color-primary: #fafafa;
+  --font-color: #000000;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container1488 {
+    border-radius: 20px;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: #1641cc;
+}
+
+
+#title{
+    display: flex;
+    color: white;
+}
+.container1488{
+    border-radius: 20px;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: #1641cc;
+}
+
+.field{
+    display: flex;
+    height: 40px;
+    max-width: 300px;
+    margin-top: 30px;
+}
+#email{
+    display:none;
+}
+#emailOnOff:checked ~ #email {
+    display:flex;
+}
+.createaccount {
+    margin-top: 20px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.createaccount:hover {
+    text-decoration: underline;
+}
+.createaccount::before {
+    content: "Create Account";
+}
+#emailOnOff:checked ~ #createaccount::before {
+    content: "Authorize";
+}
+
+#login{
+    width: 300px;
+    margin-top: 60px;
+    color: black;
+}
+
